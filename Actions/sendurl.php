@@ -3,7 +3,7 @@
  * Get DAV session
  *
  * @author Anakeen 2006
- * @version $Id: sendurl.php,v 1.1 2007/11/27 15:55:30 eric Exp $
+ * @version $Id: sendurl.php,v 1.2 2009/01/15 16:42:39 eric Exp $
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  * @package FREEDOM
  * @subpackage DAV
@@ -14,8 +14,6 @@
 
 
 include_once("FDL/Class.Doc.php");
-include_once("DAV/Class.FdlDav.php");
-
 
 /**
  * Redirect to url
