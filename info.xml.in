@@ -1,7 +1,25 @@
 <?xml version="1.0"?>
 <module name="freedom-url" disabled="no" version="@VERSION@" release="@RELEASE@">
-  <description>Simply specify URL like integrated application in freedom.</description>
+
+  <description lang="en">Simply specify URL like integrated application in freedom.</description>
+
   <requires>
     <module name="freedom" />
   </requires>
+
+  <post-install>
+    <process command="programs/app_post URL I" />
+    <process command="programs/record_application URL" />
+    <process command="programs/app_post URL U" />
+    <process command="programs/update_catalog" />
+  </post-install>
+ 
+  <post-upgrade>
+    <process command="programs/pre_migration URL" />
+    <process command="programs/app_post URL U" />
+    <process command="programs/record_application URL" />
+    <process command="programs/post_migration URL" />
+    <process command="programs/update_catalog" />
+  </post-upgrade>
+
 </module>
