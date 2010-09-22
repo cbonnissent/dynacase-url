@@ -18,7 +18,7 @@ VERSION=`cat VERSION`
 AC_SUBST(RELEASE)
 RELEASE=`cat RELEASE`
 AC_SUBST(PACKAGE)
-PACKAGE=freedom-url
+PACKAGE=dynacase-url
 AC_SUBST(APPNAME)
 APPNAME=URL
 
@@ -69,4 +69,4 @@ AC_ARG_WITH(dbport,
 [  --with-dbport=port number  the database port (default 5432)], DBPORT=$withval)
 
 
-AC_OUTPUT(Makefile URL_init.php freedom-url.spec debian/changelog info.xml)
+AC_OUTPUT(Makefile URL_init.php dynacase-url.spec  info.xml)
