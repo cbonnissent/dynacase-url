@@ -12,7 +12,6 @@ $app_desc = array (
 "childof"	=>""		// 	
 );
 
-
 $app_acl = array (
   array(
    "name"               =>"USEIT",

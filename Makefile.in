@@ -15,7 +15,7 @@ GZIP_ENV = --best
 
 export targetdir PACKAGE
 
-SUBDIR=Actions Images debian
+SUBDIR=Actions Images 
 
 pages_not_xml = info.xml
 
