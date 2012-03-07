@@ -6,19 +6,16 @@
         <module name="freedom-url" />
   </replaces>
   <requires>
-    <module name="dynacase-platform" comp="lt" version="3.2.0" />
+    <module name="dynacase-platform" comp="ge" version="3.2.0" />
   </requires>
 
   <post-install>
-    <process command="programs/app_post URL I" />
     <process command="programs/record_application URL" />
-    <process command="programs/app_post URL U" />
     <process command="programs/update_catalog" />
   </post-install>
  
   <post-upgrade>
     <process command="programs/pre_migration URL" />
-    <process command="programs/app_post URL U" />
     <process command="programs/record_application URL" />
     <process command="programs/post_migration URL" />
     <process command="programs/update_catalog" />

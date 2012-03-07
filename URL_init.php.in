@@ -1,24 +1,19 @@
 <?php
-
-/**
+/*
  * @author Anakeen
  * @license http://www.fsf.org/licensing/licenses/agpl-3.0.html GNU Affero General Public License
- */
-
-// ---------------------------------------------------------------
-// $Id: URL_init.php.in,v 1.1 2007/11/27 15:55:30 eric Exp $
-// $Source: /home/cvsroot/anakeen/freedom/url/URL_init.php.in,v $
-// ---------------------------------------------------------------
+ * @package URL
+*/
 
 global $app_const;
 
-$app_const= array(
-  "INIT" => "yes",
-  "VERSION" => "@VERSION@-@RELEASE@",
-  "URL_URL"    =>array("val"=>"",
-		       "descr"=>N_("Url of the index of application"),
-		       "global"=>"N")
-  
+$app_const = array(
+    "INIT" => "yes",
+    "VERSION" => "@VERSION@-@RELEASE@",
+    "URL_URL" => array(
+        "val" => "",
+        "descr" => N_("Url of the index of application") ,
+        "global" => "N"
+    )
 );
-
 ?>
