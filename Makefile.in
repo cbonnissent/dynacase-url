@@ -10,17 +10,17 @@ srcdir = @srcdir@
 
 export pubdir utildir appname
 
-TAR = gtar
+TAR = tar
 GZIP_ENV = --best
 
 export targetdir PACKAGE
 
-SUBDIR=Actions Images 
+SUBDIR=Actions Images
 
 pages_not_xml = info.xml
 
 include $(utildir)/PubRule
 
 DISTFILES += $(SUBDIR)  \
-            RELEASE VERSION   
+            RELEASE VERSION
 
