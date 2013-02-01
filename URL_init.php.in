@@ -12,7 +12,7 @@ $app_const = array(
     "VERSION" => "@VERSION@-@RELEASE@",
     "URL_URL" => array(
         "val" => "",
-        "descr" => N_("Url of the index of application") ,
+        "descr" => N_("URL:Url of the index of application") ,
         "global" => "N"
     )
 );

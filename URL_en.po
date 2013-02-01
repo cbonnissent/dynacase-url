@@ -6,29 +6,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DAV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-11-27 16:50+0100\n"
+"POT-Creation-Date: 2013-02-01 14:39+0100\n"
 "PO-Revision-Date: 2001-03-14 00:54-0500\n"
 "Last-Translator: Eric Brison <eric.brison@anakeen.com>\n"
 "Language-Team: english-anakeen <distrib@anakeen.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "\n"
 
-msgid "Url of the index of application"
-msgstr ""
+#: URL.app:18
+msgid "URL:Can use this application"
+msgstr "Can use this application"
 
-msgid "no URL parameter set"
-msgstr ""
+#: URL.app:7
+msgid "URL:Extern web application"
+msgstr "Extern web application"
 
-msgid "Url"
-msgstr ""
+#: URL.app:6
+msgid "URL:Url"
+msgstr "Url"
 
-msgid "Extern web application"
-msgstr ""
+#: URL_init.php:15
+msgid "URL:Url of the index of application"
+msgstr "Url of the index of application"
 
-msgid "Can use this application"
-msgstr ""
+#: Actions/sendurl.php:23
+msgid "URL:no URL parameter set"
+msgstr "no URL parameter set"
 
-msgid "redirect to url"
-msgstr ""
+#: URL.app:25
+msgid "URL:redirect to url"
+msgstr "redirect to url"
