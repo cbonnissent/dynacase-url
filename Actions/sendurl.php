@@ -7,7 +7,6 @@
  * @package URL
 */
 
-include_once ("FDL/Class.Doc.php");
 /**
  * Redirect to url
  * @param Action &$action current action
@@ -21,5 +20,5 @@ function sendurl(&$action)
         header("location: $url");
         exit;
     }
-    $action->lay->template = _("no URL parameter set");
+    $action->lay->template = _("URL:no URL parameter set");
 }
